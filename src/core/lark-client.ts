@@ -40,8 +40,7 @@ function installGlobalUserAgent(): void {
 }
 
 installGlobalUserAgent();
-Lark.defaultHttpInstance.interceptors.request.handlers = [];
-// 使用 interceptors 在所有 HTTP 请求中注入 User-Agent header
+// 在所有 HTTP 请求中注入 User-Agent header
 Lark.defaultHttpInstance.interceptors.request.use(
   (req) => {
     if (req.headers) {
