@@ -12,7 +12,7 @@
  * - `group_message_type`: "chat" | "thread" (only for chat_mode=group)
  */
 
-import type * as Lark from '@larksuiteoapi/node-sdk';
+import type * as Lark from '@brycehuang/node-sdk';
 import type { ClawdbotConfig } from 'openclaw/plugin-sdk';
 import { larkLogger } from './lark-logger';
 

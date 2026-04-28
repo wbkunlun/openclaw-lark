@@ -21,7 +21,7 @@ interface DiagLogger {
   warn: (message: string) => void;
   error: (message: string) => void;
 }
-import type * as Lark from '@larksuiteoapi/node-sdk';
+import type * as Lark from '@brycehuang/node-sdk';
 
 import { probeFeishu } from '../channel/probe';
 import { getEnabledLarkAccounts, getLarkAccount, getLarkAccountIds } from '../core/accounts';

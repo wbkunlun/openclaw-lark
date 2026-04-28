@@ -8,7 +8,7 @@
  */
 
 import type { ClawdbotConfig } from 'openclaw/plugin-sdk';
-import type { Client as LarkClient } from '@larksuiteoapi/node-sdk';
+import type { Client as LarkClient } from '@brycehuang/node-sdk';
 
 // ---------------------------------------------------------------------------
 // 通用功能（从 tools/helpers.ts 导入）

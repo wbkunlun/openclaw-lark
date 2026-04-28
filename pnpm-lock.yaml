@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@larksuiteoapi/node-sdk':
-        specifier: github:wbkunlun/node-sdk
-        version: https://codeload.github.com/wbkunlun/node-sdk/tar.gz/6683eb5dfb07f60b2199ccd0e5b95d1fc92b495a
+      '@brycehuang/node-sdk':
+        specifier: ^1.62.2
+        version: 1.62.2
       '@sinclair/typebox':
         specifier: 0.34.48
         version: 0.34.48
@@ -263,6 +263,9 @@ packages:
   '@borewit/text-codec@0.2.2':
     resolution: {integrity: sha512-DDaRehssg1aNrH4+2hnj1B7vnUGEjU6OIlyRdkMd0aUdIUvKXrJfXsy8LVtXAy7DRvYVluWbMspsRhz2lcW0mQ==}
 
+  '@brycehuang/node-sdk@1.62.2':
+    resolution: {integrity: sha512-LSC0ITWlPQhrajWDHwaH9rguPhhOYA/Wlnd+ec0+JIS7KuRXzpNJ62VzSqDllQkWjFni8bBCI4kTfKujZ3nmZQ==}
+
   '@clack/core@1.2.0':
     resolution: {integrity: sha512-qfxof/3T3t9DPU/Rj3OmcFyZInceqj/NVtO9rwIuJqCUgh32gwPjpFQQp/ben07qKlhpwq7GzfWpST4qdJ5Drg==}
 
@@ -376,10 +379,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
-
-  '@larksuiteoapi/node-sdk@https://codeload.github.com/wbkunlun/node-sdk/tar.gz/6683eb5dfb07f60b2199ccd0e5b95d1fc92b495a':
-    resolution: {tarball: https://codeload.github.com/wbkunlun/node-sdk/tar.gz/6683eb5dfb07f60b2199ccd0e5b95d1fc92b495a}
-    version: 1.62.0
 
   '@lydell/node-pty-darwin-arm64@1.2.0-beta.12':
     resolution: {integrity: sha512-tqaifcY9Cr41SblO1+FLzh8oxxtkNhuW9Dhl22lKme9BreYvKvxEZcdPIXTuqkJc5tagOEC4QHShKmJjLyLXLQ==}
@@ -3525,6 +3524,24 @@ snapshots:
 
   '@borewit/text-codec@0.2.2': {}
 
+  '@brycehuang/node-sdk@1.62.2':
+    dependencies:
+      axios: 1.13.6
+      http-proxy-agent: 7.0.2
+      https-proxy-agent: 7.0.6
+      lodash.identity: 3.0.0
+      lodash.merge: 4.6.2
+      lodash.pickby: 4.6.0
+      protobufjs: 7.5.5
+      proxy-from-env: 1.1.0
+      qs: 6.15.1
+      ws: 8.20.0
+    transitivePeerDependencies:
+      - bufferutil
+      - debug
+      - supports-color
+      - utf-8-validate
+
   '@clack/core@1.2.0':
     dependencies:
       fast-wrap-ansi: 0.1.6
@@ -3653,24 +3670,6 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
-
-  '@larksuiteoapi/node-sdk@https://codeload.github.com/wbkunlun/node-sdk/tar.gz/6683eb5dfb07f60b2199ccd0e5b95d1fc92b495a':
-    dependencies:
-      axios: 1.13.6
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.6
-      lodash.identity: 3.0.0
-      lodash.merge: 4.6.2
-      lodash.pickby: 4.6.0
-      protobufjs: 7.5.5
-      proxy-from-env: 1.1.0
-      qs: 6.15.1
-      ws: 8.20.0
-    transitivePeerDependencies:
-      - bufferutil
-      - debug
-      - supports-color
-      - utf-8-validate
 
   '@lydell/node-pty-darwin-arm64@1.2.0-beta.12':
     optional: true

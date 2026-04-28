@@ -9,7 +9,7 @@
  */
 
 import type { OpenClawConfig } from 'openclaw/plugin-sdk';
-import type * as Lark from '@larksuiteoapi/node-sdk';
+import type * as Lark from '@brycehuang/node-sdk';
 
 import { getEnabledLarkAccounts } from '../core/accounts';
 import { LarkClient } from '../core/lark-client';

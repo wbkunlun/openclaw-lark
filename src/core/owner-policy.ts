@@ -8,7 +8,7 @@
  * 提供 fail-close 策略（安全优先：授权发起路径）。
  */
 
-import type * as Lark from '@larksuiteoapi/node-sdk';
+import type * as Lark from '@brycehuang/node-sdk';
 import type { ConfiguredLarkAccount } from './types';
 import { getAppOwnerFallback } from './app-owner-fallback';
 

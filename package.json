@@ -40,7 +40,7 @@
     "format:check": "prettier --check src/**/*.ts"
   },
   "dependencies": {
-    "@larksuiteoapi/node-sdk": "github:wbkunlun/node-sdk",
+    "@brycehuang/node-sdk": "^1.62.2",
     "@sinclair/typebox": "0.34.48",
     "image-size": "^2.0.2",
     "zod": "^4.3.6"

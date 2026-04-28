@@ -12,7 +12,7 @@
  */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import type * as Lark from '@larksuiteoapi/node-sdk';
+import type * as Lark from '@brycehuang/node-sdk';
 import { larkLogger } from './lark-logger';
 
 const log = larkLogger('core/app-scope-checker');
