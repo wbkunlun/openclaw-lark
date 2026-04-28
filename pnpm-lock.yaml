@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@larksuiteoapi/node-sdk':
         specifier: github:wbkunlun/node-sdk
-        version: https://codeload.github.com/wbkunlun/node-sdk/tar.gz/2a6460207dcfbd7ddc824d298e0bc343a4dde011
+        version: https://codeload.github.com/wbkunlun/node-sdk/tar.gz/6683eb5dfb07f60b2199ccd0e5b95d1fc92b495a
       '@sinclair/typebox':
         specifier: 0.34.48
         version: 0.34.48
@@ -377,8 +377,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@larksuiteoapi/node-sdk@https://codeload.github.com/wbkunlun/node-sdk/tar.gz/2a6460207dcfbd7ddc824d298e0bc343a4dde011':
-    resolution: {tarball: https://codeload.github.com/wbkunlun/node-sdk/tar.gz/2a6460207dcfbd7ddc824d298e0bc343a4dde011}
+  '@larksuiteoapi/node-sdk@https://codeload.github.com/wbkunlun/node-sdk/tar.gz/6683eb5dfb07f60b2199ccd0e5b95d1fc92b495a':
+    resolution: {tarball: https://codeload.github.com/wbkunlun/node-sdk/tar.gz/6683eb5dfb07f60b2199ccd0e5b95d1fc92b495a}
     version: 1.62.0
 
   '@lydell/node-pty-darwin-arm64@1.2.0-beta.12':
@@ -3654,18 +3654,22 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@larksuiteoapi/node-sdk@https://codeload.github.com/wbkunlun/node-sdk/tar.gz/2a6460207dcfbd7ddc824d298e0bc343a4dde011':
+  '@larksuiteoapi/node-sdk@https://codeload.github.com/wbkunlun/node-sdk/tar.gz/6683eb5dfb07f60b2199ccd0e5b95d1fc92b495a':
     dependencies:
       axios: 1.13.6
+      http-proxy-agent: 7.0.2
+      https-proxy-agent: 7.0.6
       lodash.identity: 3.0.0
       lodash.merge: 4.6.2
       lodash.pickby: 4.6.0
       protobufjs: 7.5.5
+      proxy-from-env: 1.1.0
       qs: 6.15.1
       ws: 8.20.0
     transitivePeerDependencies:
       - bufferutil
       - debug
+      - supports-color
       - utf-8-validate
 
   '@lydell/node-pty-darwin-arm64@1.2.0-beta.12':
